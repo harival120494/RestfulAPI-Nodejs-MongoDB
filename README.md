@@ -1,6 +1,20 @@
 <H3>RESTFUL API MENGGUNAKAN NODE.JS DAN DATABASE MONGODB</H3>
 
 
+<h5>Format Data Untuk Input Absensi</h5>
+<hr/>
+
+<pre>
+{
+    nik: String,
+    nama: String,
+    tanggal: String,
+    jamMasuk: String,
+    actJamMasuk: String,
+    sttKehadiran: String
+}
+</pre>
+
 
 1.	API Untuk menampilkan semua data
 http://localhost:3000/absensi
