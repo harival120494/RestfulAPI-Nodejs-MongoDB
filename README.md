@@ -6,12 +6,12 @@
 
 <pre>
 {
-    nik: String,
-    nama: String,
-    tanggal: String,
-    jamMasuk: String,
-    actJamMasuk: String,
-    sttKehadiran: String
+    nik: String,                // Nomor Induk Karyawan
+    nama: String,               // Nama Karyawan
+    tanggal: String,            // Tanggal Absen
+    jamMasuk: String,           // Jam Masuk Karyawan Saat Absen
+    actJamMasuk: String,        // Jam masuk yang di tetapkan
+    sttKehadiran: String        // Status kehadiran ( H, A, I, C)
 }
 </pre>
 
