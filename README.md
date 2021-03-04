@@ -6,7 +6,7 @@
 http://localhost:3000/absensi
  ![all](https://user-images.githubusercontent.com/33562224/109934519-373a3b80-7cff-11eb-90e9-d46ff357168d.png)
 
-2.	API untuk input data absensi (check in)
+2.	API untuk input data absensi (check in) (POST METHOD)
 http://localhost:3000/absensi/check-in
  ![check-in](https://user-images.githubusercontent.com/33562224/109934685-605acc00-7cff-11eb-9291-9fb6785466ec.png)
 
