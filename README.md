@@ -11,15 +11,15 @@ http://localhost:3000/absensi/check-in
  ![check-in](https://user-images.githubusercontent.com/33562224/109934685-605acc00-7cff-11eb-9291-9fb6785466ec.png)
 
 3.	API untuk update data absensi
-http://localhost:3000/absensi/absensi-update/[your-id-value]
+http://localhost:3000/absensi/absensi-update/604081f12d3f460cf0713e62
 ![update](https://user-images.githubusercontent.com/33562224/109934791-7b2d4080-7cff-11eb-9328-aa833c7e6b0f.png)
  
 4.	API untuk menampilkan data berdasarkan ID
-http://localhost:3000/absensi/absensi-get/[your-id-value]
+http://localhost:3000/absensi/absensi-get/604081f12d3f460cf0713e62
 ![get_byid](https://user-images.githubusercontent.com/33562224/109934877-8f713d80-7cff-11eb-9bc5-8d44667f800c.png)
  
 5.	API untuk menghapus data berdasarkan ID
-http://localhost:3000/absensi/delete-absen-byid/[your-id-value]
+http://localhost:3000/absensi/delete-absen-byid/604081f12d3f460cf0713e62
 ![delete](https://user-images.githubusercontent.com/33562224/109934940-a1eb7700-7cff-11eb-9169-e165a312aab9.png)
  
 6.	API untuk menampilkan report data Menggunakan Method GET
