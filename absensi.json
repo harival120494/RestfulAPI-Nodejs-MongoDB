@@ -1,0 +1,170 @@
+{
+        "_id" : ObjectId("60407488b996993dbccf82e4"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-01T00:00:00.000Z",
+        "jamMasuk" : "08:00",
+        "actJamMasuk" : "08:15",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604074a8b996993dbccf82e5"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-02T00:00:00.000Z",
+        "jamMasuk" : "07:40",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604074b3b996993dbccf82e6"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-03T00:00:00.000Z",
+        "jamMasuk" : "07:56",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604074bcb996993dbccf82e7"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-04T00:00:00.000Z",
+        "jamMasuk" : "07:58",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604080fd2d3f460cf0713e56"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-20T00:00:00.000Z",
+        "jamMasuk" : "07:58",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "A",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6040810f2d3f460cf0713e57"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-21T00:00:00.000Z",
+        "jamMasuk" : "07:53",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081192d3f460cf0713e58"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-22T00:00:00.000Z",
+        "jamMasuk" : "07:43",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6040812c2d3f460cf0713e59"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-23T00:00:00.000Z",
+        "jamMasuk" : "07:59",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081652d3f460cf0713e5a"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-24T00:00:00.000Z",
+        "jamMasuk" : "08:09",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081702d3f460cf0713e5b"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-25T00:00:00.000Z",
+        "jamMasuk" : "08:20",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6040817d2d3f460cf0713e5c"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-26T00:00:00.000Z",
+        "jamMasuk" : "08:15",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("6040818a2d3f460cf0713e5d"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-27T00:00:00.000Z",
+        "jamMasuk" : "07:49",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "H",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081d42d3f460cf0713e5e"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-05T00:00:00.000Z",
+        "jamMasuk" : "",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "C",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081d92d3f460cf0713e5f"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-06T00:00:00.000Z",
+        "jamMasuk" : "",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "C",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081de2d3f460cf0713e60"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-03-07T00:00:00.000Z",
+        "jamMasuk" : "",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "C",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081ea2d3f460cf0713e61"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-18T00:00:00.000Z",
+        "jamMasuk" : "",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "A",
+        "__v" : 0
+}
+{
+        "_id" : ObjectId("604081f12d3f460cf0713e62"),
+        "nik" : "1001",
+        "nama" : "Harival Tivani",
+        "tanggal" : "2021-02-19T00:00:00.000Z",
+        "jamMasuk" : "",
+        "actJamMasuk" : "08:00",
+        "sttKehadiran" : "A",
+        "__v" : 0
+}
