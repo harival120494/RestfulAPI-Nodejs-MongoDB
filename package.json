@@ -1,0 +1,22 @@
+{
+  "name": "node1",
+  "version": "1.0.0",
+  "description": "rest api crud nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app.js"
+  },
+  "keywords": [
+    "NodeJS",
+    "RestAPI",
+    "MongoDB"
+  ],
+  "author": "Harival Tivani",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}
