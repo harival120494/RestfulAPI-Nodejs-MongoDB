@@ -38,7 +38,20 @@ http://localhost:3000/absensi/delete-absen-byid/604081f12d3f460cf0713e62
  
 6.	API untuk menampilkan report data Menggunakan Method GET
 Report ini di generate menggunakan periode tanggal.
+<h3>Menggunakan Method GET</h3>
 http://localhost:3000/absensi/report-absensi/[date1]/[date2] /[jenis_kehadiran] /[nik]
+
+<h3>Menggunakan Method POST</h3>
+http://localhost:3000/absensi/report-absensi
+
+<pre>
+{
+    "date1": "2021-02-19",
+    "date2": "2021-03-10",
+    "typeofattd": "hadir",
+    "nik": "1001"
+}
+</pre>
 
 a. Menampilkan data yang hadir berdasarkan periode tanggal pada seorang karyawan
 http://localhost:3000/absensi/report-absensi/2021-02-19/2021-03-10/hadir/1001
