@@ -94,4 +94,30 @@ router.get('/report-absensi/:date1/:date2/:typeofattd/:nik', function (req, res)
 		}).sort({tanggal:"1"});
 });
 
+//function reporting base on date period and type of attendance (Hadir, Izin, Cuti, Alfa) By POST Method
+router.post('/report-absensi', function (req, res) {
+	let date1 = req.body.date1;
+	let date2 = req.body.date2;
+	let toa = (req.body.typeofattd).toLowerCase();
+	let nik = req.body.nik;
+	let jenis_report = toa == "hadir" ? "H" : (toa == "izin" ? "I" : (toa == "cuti" ? "C" : (toa == "alfa" ? "A" : ( toa == "telat" ? "T" : "All"))));
+
+	let where;
+	if(jenis_report == "All")
+	{
+		where = { tanggal:{$gte:date1, $lte:date2}, nik:nik };
+	}
+	else if(jenis_report == "T")
+	{
+		where = where = { tanggal:{$gte:date1, $lte:date2}, nik:nik, jamMasuk:{$gt:"08:00"} }
+	}
+	else {where = { tanggal:{$gte:date1, $lte:date2}, nik:nik, sttKehadiran:jenis_report };}
+
+	Absensi.find( where,
+		function (error, absensi) {
+			if (error) res.send(error);
+			res.json({data:absensi, total:absensi.length, note:jenis_report== "T" ? "Hadir dengan status telat" :"-"});
+		}).sort({tanggal:"1"});
+});
+
 module.exports = router;
